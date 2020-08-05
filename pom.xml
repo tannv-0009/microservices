@@ -11,8 +11,9 @@
 	<groupId>com.tannv</groupId>
 	<artifactId>microserervice-parent</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	<name>microserervice parent</name>
-	<description>microserervice parent</description>
+	<packaging>pom</packaging>
+	<name>microservice parent</name>
+	<description>microservice parent</description>
 
 	<properties>
 		<java.version>11</java.version>
@@ -21,7 +22,10 @@
 
 	<dependencies>
 	</dependencies>
-
+<modules>
+	<module>configurations</module>
+	<module>configurations-client</module>
+</modules>
 	<dependencyManagement>
 		<dependencies>
 			<dependency>
